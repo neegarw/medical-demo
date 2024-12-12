@@ -1,0 +1,44 @@
+:root { --mavi: #6bc2f1 }
+header { background: url('img/headerbg.jpg') 60% 50%/cover }
+#feature1 { background: url('img/feature1.jpg') center/cover }
+#feature2 { background: url('img/feature2.jpg') center/cover }
+#feature1:hover, #feature2:hover { opacity: .5 }
+#feature1:hover h5, #feature2:hover h5 { opacity: 1!important }
+#icon img{ 
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+#carouselExampleDark #caruselbutton{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+#caruselbutton.active{
+    width: 50px !important;
+    height: 50px !important;
+}
+.carousel-caption h2{font-size: 5.5rem;}
+.border-mavi{border: 1px solid var(--mavi);}
+.slide0{background: url(img/slide0.png)center/cover;}
+.slide1{background: url(img/slide1.png)center/cover;}
+.slide2{background: url(img/slide2.png)center/cover;}
+.slide3{background: url(img/slide3.png)center/cover;}
+.slide4{background: url(img/slide4.png)center/cover;}
+#btn{
+    display: block;
+    margin: auto;
+    transition: 0.7s ease-in-out;
+}
+#btn:hover{
+    background-color: rgb(34, 34, 105) !important;
+    color: #fff !important;
+    border: none !important;
+}
+footer{
+    background-color: #072035;
+}
+.text-mavi { color: var(--mavi) }
+.bg-mavi { background-color: var(--mavi) }
+.bg-boz { background-color: #f1f1f1 }
+.vh-50 { min-height: 50vh;}
