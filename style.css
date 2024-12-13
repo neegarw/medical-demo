@@ -9,22 +9,25 @@ header { background: url('img/headerbg.jpg') 60% 50%/cover }
     height: 80px;
     object-fit: contain;
 }
-#carouselExampleDark #caruselbutton{
-    width: 35px;
-    height: 35px;
+.carousel-indicators .sld{
+    width: 35px !important;
+    height: 35px !important;
     border-radius: 50%;
 }
-#caruselbutton.active{
+.carousel-indicators .active{
     width: 50px !important;
     height: 50px !important;
 }
-.carousel-caption h2{font-size: 5.5rem;}
+.carousel-inner h2{font-size: 5.5rem;}
 .border-mavi{border: 1px solid var(--mavi);}
 .slide0{background: url(img/slide0.png)center/cover;}
 .slide1{background: url(img/slide1.png)center/cover;}
 .slide2{background: url(img/slide2.png)center/cover;}
 .slide3{background: url(img/slide3.png)center/cover;}
 .slide4{background: url(img/slide4.png)center/cover;}
+.carousel-control-prev, .carousel-control-next{
+    background: none !important;
+}
 #btn{
     display: block;
     margin: auto;
